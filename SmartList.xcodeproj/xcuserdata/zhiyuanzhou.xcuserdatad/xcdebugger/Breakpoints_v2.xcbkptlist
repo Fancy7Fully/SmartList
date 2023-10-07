@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9A475DB0-5135-4518-AD29-175434DA38AE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AB5F22E-E827-43A4-950B-A4BF0D309F29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartList/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4AB5F22E-E827-43A4-950B-A4BF0D309F29 - 43cc6b9899da70f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation, Swift.Array&lt;SmartList.Item&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "4AB5F22E-E827-43A4-950B-A4BF0D309F29 - 43cc6b9899da70f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation, Swift.Array&lt;SmartList.Item&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "4AB5F22E-E827-43A4-950B-A4BF0D309F29 - 43cc6b9899da70d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation, Swift.Array&lt;SmartList.Item&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "4AB5F22E-E827-43A4-950B-A4BF0D309F29 - 481365700988ba6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E791CCCA-5712-4281-9EED-A2FDE379555D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartList/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E791CCCA-5712-4281-9EED-A2FDE379555D - 43cc6b9899da7054"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation, Swift.Array&lt;SmartList.Item&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "E791CCCA-5712-4281-9EED-A2FDE379555D - 43cc6b9899da7035"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation, Swift.Array&lt;SmartList.Item&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "E791CCCA-5712-4281-9EED-A2FDE379555D - 43cc6b9899da7012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation, Swift.Array&lt;SmartList.Item&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "E791CCCA-5712-4281-9EED-A2FDE379555D - 481365700988ba11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartList/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA - ca3d402fac3fcd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2120">
+               </Location>
+               <Location
+                  uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA - f2d43e61afab096"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Never&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA - 43cc6b9899da7f7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation, Swift.Array&lt;SmartList.Item&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA - f2d43e61afab0b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Never&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA - f2d43e61afab0d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Never&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA - f2d43e61afabf1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Never&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
