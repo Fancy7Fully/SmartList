@@ -14,8 +14,8 @@
             filePath = "SmartList/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -79,6 +79,21 @@
                   endingLineNumber = "56"
                   offsetFromSymbolStart = "304">
                </Location>
+               <Location
+                  uuid = "4AB5F22E-E827-43A4-950B-A4BF0D309F29 - 481365700988ba11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "304">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -92,8 +107,8 @@
             filePath = "SmartList/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -157,6 +172,21 @@
                   endingLineNumber = "58"
                   offsetFromSymbolStart = "576">
                </Location>
+               <Location
+                  uuid = "E791CCCA-5712-4281-9EED-A2FDE379555D - 481365700988bad3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmartList.ViewController.Operation) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "576">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -170,8 +200,8 @@
             filePath = "SmartList/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -263,6 +293,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "51"
                   endingLineNumber = "51"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "0C068FC7-7FED-4074-A8EA-E6A0BC3390DA - f2d43e61afabfdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Never&gt;) -&gt; () in SmartList.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
                   offsetFromSymbolStart = "160">
                </Location>
             </Locations>
