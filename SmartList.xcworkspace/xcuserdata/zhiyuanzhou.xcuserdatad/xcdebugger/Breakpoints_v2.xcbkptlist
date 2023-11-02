@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "18D06D11-89C6-480B-8FF6-CF53485993F0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B2065C-5A57-462C-B180-501ABBCC34AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartList/DataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "updateRow(itemId:item:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1B2065C-5A57-462C-B180-501ABBCC34AB - 716ffb0af2bc63c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartList.DataManager.updateRow(itemId: Swift.Int, item: SmartList.Item) -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "2332">
+               </Location>
+               <Location
+                  uuid = "A1B2065C-5A57-462C-B180-501ABBCC34AB - 303c8b44a97c7611"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in SmartList.DataManager.updateRow(itemId: Swift.Int, item: SmartList.Item) -&gt; ()"
+                  moduleName = "SmartList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

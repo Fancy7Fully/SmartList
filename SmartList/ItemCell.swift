@@ -10,9 +10,22 @@ import UIKit
 
 class ItemCell: UITableViewCell {
     var image: UIImageView = UIImageView()
-    var titleLabel = UITextView(frame: .zero)
+    lazy var titleLabel = {
+        let label = UITextView(frame: .zero)
+        label.font = .systemFont(ofSize: 18)
+        return label
+    }()
+    
     var subtitle: UILabel = UILabel()
     var indexPath: IndexPath!
+    var isFlagged: Bool = false
+    
+    lazy var flagImageView = {
+        let flagImageView = UIImageView()
+        flagImageView.image = .init(systemName: "flag.fill")?.withTintColor(.orange)
+        flagImageView.isHidden = true
+        return flagImageView
+    }()
     weak var controller: UITableViewController?
     
     var delegate: ItemCellDelegate?
@@ -33,9 +46,13 @@ class ItemCell: UITableViewCell {
             image.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),
             image.widthAnchor.constraint(equalToConstant: 24),
             image.heightAnchor.constraint(equalToConstant: 24),
+            flagImageView.heightAnchor.constraint(equalToConstant: 24),
+            flagImageView.widthAnchor.constraint(equalToConstant: 24),
+            flagImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),
+            flagImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
             titleLabel.leadingAnchor.constraint(equalTo: image.trailingAnchor, constant: 8),
             titleLabel.topAnchor.constraint(equalTo: image.topAnchor),
-            titleLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
+            titleLabel.trailingAnchor.constraint(equalTo: flagImageView.leadingAnchor, constant: -16),
             subtitle.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
             subtitle.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
             subtitle.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
@@ -51,15 +68,16 @@ class ItemCell: UITableViewCell {
         titleLabel.isScrollEnabled = false
         titleLabel.backgroundColor = .green
         titleLabel.delegate = self
-        //    titleLabel.numberOfLines = 0
         subtitle.numberOfLines = 1
         image.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         subtitle.translatesAutoresizingMaskIntoConstraints = false
+        flagImageView.translatesAutoresizingMaskIntoConstraints = false
         
-        self.contentView.addSubview(image)
-        self.contentView.addSubview(titleLabel)
-        self.contentView.addSubview(subtitle)
+        contentView.addSubview(image)
+        contentView.addSubview(titleLabel)
+        contentView.addSubview(subtitle)
+        contentView.addSubview(flagImageView)
         
         updateConstraints()
         image.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapOnImage)))
@@ -95,7 +113,6 @@ class ItemCell: UITableViewCell {
 
 extension ItemCell: UITextViewDelegate {
     func textViewDidBeginEditing(_ textView: UITextView) {
-//        delegate
         delegate?.cellWillUpdateText(self, indexPath: indexPath)
     }
     
@@ -104,10 +121,15 @@ extension ItemCell: UITextViewDelegate {
         self.updateConstraintsIfNeeded()
         delegate?.cellDidUpdateText(self, text: textView.text, indexPath: indexPath)
     }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        delegate?.cellDidEndUpdatingText(self, indexPath: indexPath, text: textView.text)
+    }
 }
 
 protocol ItemCellDelegate {
     func cellDidUpdateText(_ cell: ItemCell, text: String, indexPath: IndexPath)
     func cellWillUpdateText(_ cell: ItemCell, indexPath: IndexPath)
     func didSelectChecker(_ cell: ItemCell, indexPath: IndexPath)
+    func cellDidEndUpdatingText(_ cell: ItemCell, indexPath: IndexPath, text: String)
 }

@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
     }
     
     class ViewModel {
-        var items = MockModel().items
+        var items = DataManager.shared.modelFromDatabase().items
         var data: CurrentValueSubject<Operation, Never> = CurrentValueSubject(.updateAll)
         var focusedIndexPath = PassthroughSubject<IndexPath, Never>()
         
@@ -32,6 +32,13 @@ class ViewController: UITableViewController {
         
         var rowNumber: Int {
             items.count
+        }
+        
+        func flushData() {
+            for item in items {
+                DataManager.shared.updateRow(itemId: item.id, item: item)
+                
+            }
         }
     }
     
@@ -71,6 +78,12 @@ class ViewController: UITableViewController {
             guard let self = self else { return }
             self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
         })
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(appWillBeTerminated), name: UIApplication.willTerminateNotification, object: nil)
+    }
+    
+    @objc private func appWillBeTerminated() {
+        viewModel.flushData()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -86,15 +99,17 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let action = UIContextualAction(style: .normal, title: "Normal") { action, view, completion in
+        let flagAction = UIContextualAction(style: .normal, title: "Flag") { action, view, completion in
             completion(true)
         }
+        flagAction.backgroundColor = .orange
+        
         let action2 = UIContextualAction(style: .destructive, title: "Destructive") { [weak self] action, view, completion in
             guard let self = self else { return }
             viewModel.deleteRowAt(indexPath.row)
             completion(true)
         }
-        let configuration = UISwipeActionsConfiguration(actions: [action, action2])
+        let configuration = UISwipeActionsConfiguration(actions: [action2, flagAction])
         return configuration
     }
     
@@ -127,7 +142,7 @@ class ViewController: UITableViewController {
 
 extension ViewController.ViewModel: ItemCellDelegate {
     func cellDidUpdateText(_ cell: ItemCell, text: String, indexPath: IndexPath) {
-        items[indexPath.row] = Item(name: text)
+        items[indexPath.row].name = text
         data.send(.update(rows: [indexPath]))
     }
     
@@ -139,40 +154,20 @@ extension ViewController.ViewModel: ItemCellDelegate {
         items[indexPath.row].state.toggle()
         data.send(.update(rows: [indexPath]))
     }
+    func cellDidEndUpdatingText(_ cell: ItemCell, indexPath: IndexPath, text: String) {
+        items[indexPath.row].name = text
+        DataManager.shared.updateRow(itemId: items[indexPath.row].id, item: items[indexPath.row])
+    }
 }
 
-struct MockModel {
-    var items: [Item] = [
-        Item(name: "HamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburgerHamburger"),
-        Item(name: "Brocolli"),
-        Item(name: "Cheese"),
-        Item(name: "Iron"),
-        Item(name: "Hamburger"),
-        Item(name: "Brocolli"),
-        Item(name: "Cheese"),
-        Item(name: "Iron"),
-        Item(name: "Hamburger"),
-        Item(name: "Brocolli"),
-        Item(name: "Cheese"),
-        Item(name: "Iron"),
-        Item(name: "Hamburger"),
-        Item(name: "Brocolli"),
-        Item(name: "Cheese"),
-        Item(name: "Iron"),
-        Item(name: "Hamburger"),
-        Item(name: "Brocolli"),
-        Item(name: "Cheese"),
-        Item(name: "Iron"),
-        Item(name: "Hamburger"),
-        Item(name: "Brocolli"),
-        Item(name: "Cheese"),
-        Item(name: "Iron")
-    ]
+struct Model {
+    var items: [Item]
 }
 
 struct Item {
-    enum State {
-        case unchecked
+    var id: Int = 0
+    enum State: Int {
+        case unchecked = 0
         case checked
         
         mutating func toggle() {
