@@ -1,18 +1,22 @@
 PODS:
+  - OpenAISwift (1.3.0)
   - SQLite.swift (0.14.1):
     - SQLite.swift/standard (= 0.14.1)
   - SQLite.swift/standard (0.14.1)
 
 DEPENDENCIES:
+  - OpenAISwift
   - SQLite.swift (~> 0.14.0)
 
 SPEC REPOS:
   trunk:
+    - OpenAISwift
     - SQLite.swift
 
 SPEC CHECKSUMS:
+  OpenAISwift: 9447a77c8098754f5fa61b9f6e8ab9e2ce592fbd
   SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
 
-PODFILE CHECKSUM: 2638ae51edc9efba4c5e2ce9e8b46e42534ea54a
+PODFILE CHECKSUM: a390f95b42103509a8d4a416cb9783dbf9b7d120
 
 COCOAPODS: 1.11.3

@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SmartList/Pods-SmartList-frameworks.sh
+${BUILT_PRODUCTS_DIR}/OpenAISwift/OpenAISwift.framework
 ${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework

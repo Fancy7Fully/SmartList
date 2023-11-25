@@ -25,13 +25,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     appearance.backgroundColor = .gray
     tabBar.tabBar.standardAppearance = appearance
     tabBar.tabBar.scrollEdgeAppearance = tabBar.tabBar.standardAppearance
-    let vc = ViewController(style: .plain)
+    let vc = TodoListViewController(style: .plain)
     vc.tabBarItem.title = "aaaa"
     vc.tabBarItem.image = UIImage(systemName: "house")
-    let vc2 = ViewController(style: .grouped)
+    let vc2 = TodoListViewController(style: .grouped)
     vc2.tabBarItem.title = "bbbb"
     vc2.tabBarItem.image = UIImage(systemName: "house")
-    let vc3 = ViewController(style:.insetGrouped)
+    let vc3 = TodoListViewController(style:.insetGrouped)
     vc3.tabBarItem.title = "cccc"
     vc3.tabBarItem.image = UIImage(systemName: "house")
     let nav1 = UINavigationController(rootViewController: vc)

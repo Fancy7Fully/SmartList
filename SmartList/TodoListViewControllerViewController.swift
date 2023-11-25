@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-class ViewController: UITableViewController {
+class TodoListViewController: UITableViewController {
     
     let viewModel = ViewModel()
     var sub: Cancellable?
@@ -80,6 +80,11 @@ class ViewController: UITableViewController {
         })
         
         NotificationCenter.default.addObserver(self, selector: #selector(appWillBeTerminated), name: UIApplication.willTerminateNotification, object: nil)
+        Task {
+            let manager = OpenAIManager()
+            let result = await manager.requestWithRequest(request: "what are the ingredients for caesar salad?")
+            print(result)
+        }
     }
     
     @objc private func appWillBeTerminated() {
@@ -140,7 +145,7 @@ class ViewController: UITableViewController {
     
 }
 
-extension ViewController.ViewModel: ItemCellDelegate {
+extension TodoListViewController.ViewModel: ItemCellDelegate {
     func cellDidUpdateText(_ cell: ItemCell, text: String, indexPath: IndexPath) {
         items[indexPath.row].name = text
         data.send(.update(rows: [indexPath]))

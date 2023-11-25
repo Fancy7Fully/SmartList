@@ -14,7 +14,7 @@ class AppCoordinator: Coordinator {
   var tabBarController: UITabBarController?
   
   func start() {
-    let vc = ViewController()
+    let vc = TodoListViewController()
     vc.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 0)
 //    navigationController?.pushViewController(vc, animated: true)
 //    tabBarController = UITabBarController()

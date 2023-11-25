@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		89C7B4E32ADCD6E300C6D7BA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B4E22ADCD6E300C6D7BA /* DataManager.swift */; };
+		89C7B5002B0FE61300C6D7BA /* VoiceInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B4FF2B0FE61300C6D7BA /* VoiceInputViewController.swift */; };
+		89C7B5022B0FE6AB00C6D7BA /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B5012B0FE6AB00C6D7BA /* SpeechRecognizer.swift */; };
+		89C7B5062B11A66600C6D7BA /* OpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B5052B11A66600C6D7BA /* OpenAIManager.swift */; };
 		89F1AA5B2AC94A880022F41B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA5A2AC94A880022F41B /* AppDelegate.swift */; };
 		89F1AA5D2AC94A880022F41B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA5C2AC94A880022F41B /* SceneDelegate.swift */; };
-		89F1AA5F2AC94A880022F41B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA5E2AC94A880022F41B /* ViewController.swift */; };
+		89F1AA5F2AC94A880022F41B /* TodoListViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA5E2AC94A880022F41B /* TodoListViewControllerViewController.swift */; };
 		89F1AA642AC94A890022F41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F1AA632AC94A890022F41B /* Assets.xcassets */; };
 		89F1AA672AC94A890022F41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F1AA652AC94A890022F41B /* LaunchScreen.storyboard */; };
 		89F1AA722AC94A890022F41B /* SmartListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA712AC94A890022F41B /* SmartListTests.swift */; };
@@ -43,10 +46,13 @@
 		2E24E8C287F3E8DF089F05F3 /* Pods-SmartList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartList.debug.xcconfig"; path = "Target Support Files/Pods-SmartList/Pods-SmartList.debug.xcconfig"; sourceTree = "<group>"; };
 		89C7B4E22ADCD6E300C6D7BA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		89C7B4E42AF0518400C6D7BA /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		89C7B4FF2B0FE61300C6D7BA /* VoiceInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInputViewController.swift; sourceTree = "<group>"; };
+		89C7B5012B0FE6AB00C6D7BA /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		89C7B5052B11A66600C6D7BA /* OpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIManager.swift; sourceTree = "<group>"; };
 		89F1AA572AC94A880022F41B /* SmartList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F1AA5A2AC94A880022F41B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89F1AA5C2AC94A880022F41B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89F1AA5E2AC94A880022F41B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89F1AA5E2AC94A880022F41B /* TodoListViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewControllerViewController.swift; sourceTree = "<group>"; };
 		89F1AA632AC94A890022F41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F1AA662AC94A890022F41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89F1AA682AC94A890022F41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,7 +138,7 @@
 			children = (
 				89F1AA5A2AC94A880022F41B /* AppDelegate.swift */,
 				89F1AA5C2AC94A880022F41B /* SceneDelegate.swift */,
-				89F1AA5E2AC94A880022F41B /* ViewController.swift */,
+				89F1AA5E2AC94A880022F41B /* TodoListViewControllerViewController.swift */,
 				89F1AA632AC94A890022F41B /* Assets.xcassets */,
 				89F1AA652AC94A890022F41B /* LaunchScreen.storyboard */,
 				89F1AA682AC94A890022F41B /* Info.plist */,
@@ -141,6 +147,9 @@
 				89FD0E072ACA1A050043275F /* ItemCell.swift */,
 				89C7B4E42AF0518400C6D7BA /* Location.gpx */,
 				89C7B4E22ADCD6E300C6D7BA /* DataManager.swift */,
+				89C7B4FF2B0FE61300C6D7BA /* VoiceInputViewController.swift */,
+				89C7B5012B0FE6AB00C6D7BA /* SpeechRecognizer.swift */,
+				89C7B5052B11A66600C6D7BA /* OpenAIManager.swift */,
 			);
 			path = SmartList;
 			sourceTree = "<group>";
@@ -337,11 +346,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				89FD0E042AC94B8A0043275F /* Coordinator.swift in Sources */,
-				89F1AA5F2AC94A880022F41B /* ViewController.swift in Sources */,
+				89C7B5062B11A66600C6D7BA /* OpenAIManager.swift in Sources */,
+				89F1AA5F2AC94A880022F41B /* TodoListViewControllerViewController.swift in Sources */,
 				89FD0E082ACA1A050043275F /* ItemCell.swift in Sources */,
 				89C7B4E32ADCD6E300C6D7BA /* DataManager.swift in Sources */,
 				89FD0E062AC94BC80043275F /* AppCoordinator.swift in Sources */,
+				89C7B5022B0FE6AB00C6D7BA /* SpeechRecognizer.swift in Sources */,
 				89F1AA5B2AC94A880022F41B /* AppDelegate.swift in Sources */,
+				89C7B5002B0FE61300C6D7BA /* VoiceInputViewController.swift in Sources */,
 				89F1AA5D2AC94A880022F41B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -44,9 +44,9 @@ class DataManager {
             })
             
             let exists = try db?.scalar(itemsTable.exists) ?? false
-            if !exists {
+//            if !exists {
                 insertFromMockData()
-            }
+//            }
             
             if let items = try db?.prepare(itemsTable) {
                 for item in items {
@@ -54,13 +54,13 @@ class DataManager {
                 }
             }
             
-            try db?.run(itemsTable.drop())
-            
-            if let items = try db?.prepare(itemsTable) {
-                for item in items {
-                    print("id: \(item[id]), email: \(item[creationTime]), name: \(item[name])")
-                }
-            }
+//            try db?.run(itemsTable.drop())
+//
+//            if let items = try db?.prepare(itemsTable) {
+//                for item in items {
+//                    print("id: \(item[id]), email: \(item[creationTime]), name: \(item[name])")
+//                }
+//            }
         } catch {
             print(error)
         }
