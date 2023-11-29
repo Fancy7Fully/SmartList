@@ -7,159 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002C3EDAFCA788476488D5B3AF2AA129 /* Query+with.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7EA875A35EF33AF835FF6601CA126 /* Query+with.swift */; };
-		01F9078F4F2915B788AE85711FFFBD27 /* SchemaDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39F07282A4EF9B7A9D16B0F03AAA5E /* SchemaDefinitions.swift */; };
-		03A17F435F73FB1FFE527CF71B694BBF /* SchemaReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F157AD0A9400C853B01AF695C9C0F /* SchemaReader.swift */; };
-		0EA40B3442D4CBB1806BC773C858E32E /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AE4F21CD260E6A6398550B68169001 /* Value.swift */; };
-		0F864047B1ED95C737FB060AE6054C64 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC658B610FE87BD8F6BF0F3D230479E /* DateAndTimeFunctions.swift */; };
-		11D704A603E9DC58D92287374129F3E6 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A138346896E5A221307D604940E1F /* FTS5.swift */; };
-		11F5226D59DAE79EDE1F9BCAD61217DD /* SchemaChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA79538A985AF3323A2D8276A3BBEF /* SchemaChanger.swift */; };
+		002C3EDAFCA788476488D5B3AF2AA129 /* Query+with.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CC5C106021F68D1A10188E483D8E2 /* Query+with.swift */; };
+		01F9078F4F2915B788AE85711FFFBD27 /* SchemaDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A67AAE8BFFCF43228C74CE718F68A3 /* SchemaDefinitions.swift */; };
+		03A17F435F73FB1FFE527CF71B694BBF /* SchemaReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71EA432AD8246994BF7EF55343D75D1 /* SchemaReader.swift */; };
+		0705D258DC946DF6197A28D57B9DCF64 /* Moderation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C74D3469D7BF48623A9D8A5810D4C5C /* Moderation.swift */; };
+		0EA40B3442D4CBB1806BC773C858E32E /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69B41DC14B1E67B13B61B830F76747 /* Value.swift */; };
+		0F864047B1ED95C737FB060AE6054C64 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39DCF6B3B5F77CD519BF846BBF207F /* DateAndTimeFunctions.swift */; };
+		11D704A603E9DC58D92287374129F3E6 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859D04F776FD31E785B65B53DB5A71FC /* FTS5.swift */; };
+		11F5226D59DAE79EDE1F9BCAD61217DD /* SchemaChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF516CAFDE664CDBA8A328DE30F664 /* SchemaChanger.swift */; };
+		13901B1626130AE3472B80B5D1E9AA7C /* OpenAIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73C64350B73F48E4E8789CCA5990278 /* OpenAIEndpoint.swift */; };
 		16C707C42964AA6E5BFBB154E5CBCAD2 /* Pods-SmartList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34371277DC64E70DEF52B1005FAA93FF /* Pods-SmartList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E005ACBC25B783BED1DAE5DEC9187CA /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = A9026E4A9BB5124114567D7CE2AD8C8C /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		277B8F757F8B8AE7D9F3BE3703A82963 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF2F5A580588A03F5CE1388987EF6 /* Collation.swift */; };
-		2E047153ED98FBD885FAF1513E188E12 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896E759F7BB846EC066E8A21E1B5FC99 /* FTS4.swift */; };
-		2E63D74DE70EB98CE5E984AA4CF14452 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68074C3E214FAD02E5AC3232C3CFC9 /* Errors.swift */; };
+		1E005ACBC25B783BED1DAE5DEC9187CA /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877DED0275CBA5433A0BD5C408DDC3A /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277B8F757F8B8AE7D9F3BE3703A82963 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B3D7B852F990B67E03A9F18188DA0 /* Collation.swift */; };
+		2E047153ED98FBD885FAF1513E188E12 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2C69D018CC7CD56B3E38C54021DE62 /* FTS4.swift */; };
+		2E63D74DE70EB98CE5E984AA4CF14452 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228FCA42F2A0D2D670CB9C8F01C559F /* Errors.swift */; };
 		30CE85FA61B8DD8B6E47B90FAF26A33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		32F30B12BF0B05CCBB9C4C49FE078002 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A814C92479172E0E4331D6C331ABCC8 /* Setter.swift */; };
-		33FEF31B1B0F6F537CA5B37D3FCE0BC7 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940D4343B072025CC03A363818D099D /* ChatMessage.swift */; };
-		34E39B3F93B4CFC006FB51072CF01E5D /* Connection+Aggregation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658D289E4F813D5845D82FB4B4BE8A7 /* Connection+Aggregation.swift */; };
-		3AAB9A83019AFC0D9219D184E462F244 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C95EEC041A6BE50DCCAA021F5B7766 /* Expression.swift */; };
-		3F964D6B9510007569602E70F552A062 /* SQLiteVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73077C84BDE8EFB8BDF813883E94B2DF /* SQLiteVersion.swift */; };
-		463179E58E38DB9810D4B3BA465B5715 /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624B3DF669DD986B56FA22A5E7255BA /* OpenAI.swift */; };
-		46D64161E7D7269ED96E9006E4245DB3 /* OpenAIModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE31BCFAAD673978C792833DA2BEC05 /* OpenAIModelType.swift */; };
-		51F3982BD857179D864947344A7F024F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107D3ABE59AE1CA2E9C8E542DBFEC725 /* Operators.swift */; };
-		5201052BB4AAF9DB0C655CF3FA27C3C1 /* OpenAISwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B87CEA20E0450844CCB2B7F9859FD1 /* OpenAISwift-dummy.m */; };
-		583402AC6BF0C2DF152D6DD3AB0AD7BC /* Connection+Pragmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E197C43B11AD4A15A821764D0783C /* Connection+Pragmas.swift */; };
-		5877C8EAC634C5803501477AC6F93170 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D60A236453C25A6CADA13109EEDA4C /* Instruction.swift */; };
-		5C799083D5F40F785BBB63E8EE672C96 /* Connection+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = E087771058C8C1EF24883753B1FAA811 /* Connection+Schema.swift */; };
-		5CB7054FDF737E48EDD7FA135C460643 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C647A8DD5F557CFDBBD58441A84F001 /* Connection.swift */; };
-		5D865FD24730AD77527038861AD48AD5 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710F7759C5BAC8A1BCAE42758EB2075 /* CustomFunctions.swift */; };
-		69AC1DFB82F9A94650CFDB601F2B4D05 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C0CA4BEC9DE43E510D6B4D33AC24EE /* Query.swift */; };
-		69E1B22E408CBC5DB205CAC9AD8D79A5 /* URIQueryParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB43242E51792AD16AB46349D07F7DC /* URIQueryParameter.swift */; };
-		6AD0401DAD56A545A7C77E54D10BB4D7 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9736D4EC467D1EBFA9FB159098BD8 /* Statement.swift */; };
-		70AB94C676B6DD04B4F0B458FB1867DC /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C07898CAAF2C7B57DBC01A124138C77 /* AggregateFunctions.swift */; };
+		32F30B12BF0B05CCBB9C4C49FE078002 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D57E49FF3F60C13D9C28BFC6FA9892 /* Setter.swift */; };
+		34E39B3F93B4CFC006FB51072CF01E5D /* Connection+Aggregation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2556338C40782B1CDFE74BC03866E88 /* Connection+Aggregation.swift */; };
+		3AAB9A83019AFC0D9219D184E462F244 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357E45BAA938F931B2AD889B3F416EC /* Expression.swift */; };
+		3F964D6B9510007569602E70F552A062 /* SQLiteVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB04240B3EEB5188EF318E1326DA88 /* SQLiteVersion.swift */; };
+		430254C501F311194D40CC614BC0C9FC /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB181BBFE448C6681A280C298E55E7AF /* Command.swift */; };
+		51F3982BD857179D864947344A7F024F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBDDF1558C7B65F83866043DB9E78A0 /* Operators.swift */; };
+		583402AC6BF0C2DF152D6DD3AB0AD7BC /* Connection+Pragmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31224372EC09E07121605A4263080A /* Connection+Pragmas.swift */; };
+		5C799083D5F40F785BBB63E8EE672C96 /* Connection+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25088DA375D1212801628F640A339C4A /* Connection+Schema.swift */; };
+		5CB7054FDF737E48EDD7FA135C460643 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD62F06B4F1E4426C85FDCEE92C5FC /* Connection.swift */; };
+		5D865FD24730AD77527038861AD48AD5 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7976CC54B0EF851D37DF55F49253B0 /* CustomFunctions.swift */; };
+		67D506BC75F6BB426B806634AAEB4F27 /* OpenAISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B407437420B019B2FCD30E36118DEF /* OpenAISwift.swift */; };
+		69AC1DFB82F9A94650CFDB601F2B4D05 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF518863BDB88FA656063F3416BFF3 /* Query.swift */; };
+		69E1B22E408CBC5DB205CAC9AD8D79A5 /* URIQueryParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378BD67960A4D951602B88513399528D /* URIQueryParameter.swift */; };
+		6AD0401DAD56A545A7C77E54D10BB4D7 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C289EA791F7469BC828EAC3903AF9 /* Statement.swift */; };
+		70AB94C676B6DD04B4F0B458FB1867DC /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1497D26EA0EC1DC1B34A5834A1C6F4 /* AggregateFunctions.swift */; };
 		713EB5C4FB8DC74A186B1864DB4B70E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		79851443979EA19F467996B10310C539 /* SQLiteFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC2A1B2193B54A1381B43E4E5FD967 /* SQLiteFeature.swift */; };
-		8433DAFFCC19F13F43D031FE9949702C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AC361E68F29FBF61FE0040D4A1A14 /* Helpers.swift */; };
-		879A4451CAB0C5AA3DEFA4AFEE730891 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD01CFC4E0D52047240BFA3966BA9C /* CoreFunctions.swift */; };
-		907BE8EAE94789AB699947FE9728A0A5 /* ImageGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5198A4536C76CCA9AFF43177FA6C0189 /* ImageGeneration.swift */; };
-		96F6A0FAE84595D59B4A2BDA3E40DC29 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B533393799AD9DF2A6968D5630C693 /* Command.swift */; };
-		9C34A19589DD4EFAC263331C16BF2AC3 /* Connection+Attach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64175403ECAD432E4BCB950D83DCB9B4 /* Connection+Attach.swift */; };
+		79851443979EA19F467996B10310C539 /* SQLiteFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA171BFD07D265523E22A9E3AA89849 /* SQLiteFeature.swift */; };
+		8433DAFFCC19F13F43D031FE9949702C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667CA6C64DD5D35FEDFC4A0BF3F8D19 /* Helpers.swift */; };
+		879A4451CAB0C5AA3DEFA4AFEE730891 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270F4F3E47B92D3536B0679D7480221 /* CoreFunctions.swift */; };
+		8D8A0FCBFC5647EB3FBBF5873EE43AC1 /* OpenAISwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 878462879A41A9196652B1833A213703 /* OpenAISwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97DF43DB60855EDCDE4C2D0CAA96DCD5 /* EmbeddingsInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7135428FD8EC8B3D6CDECA99BF0483B1 /* EmbeddingsInput.swift */; };
+		9C34A19589DD4EFAC263331C16BF2AC3 /* Connection+Attach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434363CF3BAF390A5CD0E589BFFCF4D7 /* Connection+Attach.swift */; };
 		9DE2539D40A12760A1F9212F38378EC1 /* Pods-SmartList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F4697073B61A282289772E5B5CEF78 /* Pods-SmartList-dummy.m */; };
-		A2952E249FF01C37C2BD0C76268BC612 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DCD31AA34AAF35EB9EC485CEAB8B0A /* Foundation.swift */; };
-		C0C123E9E8A5916C4354E17B07884E58 /* OpenAIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738B40FC8C74C3A6BCD081C4962E247 /* OpenAIEndpoint.swift */; };
-		C2360B9F59377992AB021A214CA5D4D5 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB471BA57AF93C50887EF7B763E83859 /* Backup.swift */; };
-		C8D0AEC82EE8B77A8F9D3E0A3C82BFB3 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB797E6E153233D688AA5ADF6089DC1 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D49C3A65304E762BBD1FC4836E4D3CF0 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B1D1EA259B843003B21DFA43432CF /* SQLite.swift-dummy.m */; };
-		DA0511CFD9E7816F2229107511FC4676 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ED1E4549289E34E69C08029CB1D7E5 /* RTree.swift */; };
-		DBB84C83CB83B6F1858BBB7E5697EC44 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558A30ABD41A74D2F9ED7DBD4E5E6AD /* Blob.swift */; };
-		E0ED7E4AEA5E78B480E32932F615A889 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E6C27A8C7EA4E19463B948FB5DCD7 /* Schema.swift */; };
-		EAD0F1705FD7891BC7A9A0079705E686 /* EmbeddingsInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD2EFAC12AA06FE9963A84D8297A47 /* EmbeddingsInput.swift */; };
-		EBCDA33B3D6640C11A92E5FCBBD3D997 /* OpenAISwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 471DC454B1486CAA7C9D6BF21781D4B4 /* OpenAISwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1CAE82299F5FAF09B3986A52FFF092F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F741BDF26E2E65666D3EAA1F0C82DE32 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58F62E3B9E8B1FFFA37943772BF348D /* Result.swift */; };
-		FDDE2A3ED7D443816DB70625CC18F6D5 /* OpenAISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D216DEB16D3CA4AF3B84196E7D38BF5 /* OpenAISwift.swift */; };
-		FE84B731FB2B107988E7FAC2362F2C56 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B911206858BE4CDF1C00E4B0C9BC /* Coding.swift */; };
+		9E02984587A71C0F7FD94C0898510953 /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB40AAB73BE149EA928B6FEF66A306C /* OpenAI.swift */; };
+		A2952E249FF01C37C2BD0C76268BC612 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08D36715BED2266A270CE4466117F8 /* Foundation.swift */; };
+		AA2BDCF4BE0AC373B2BA8FFE321A99E1 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B32EA3047BE6198B4F03D58758EB9A8 /* Instruction.swift */; };
+		AA2C546731131CCF89320697E70A7C9B /* OpenAIModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07560C93449D31E1DDDE311BF361173 /* OpenAIModelType.swift */; };
+		AB52012451765708568AE51F46FCC740 /* ServerSentEventsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF83FD96C325F703C1572E6A00A7F54 /* ServerSentEventsHandler.swift */; };
+		BB94A3976A864E42FBB631127599CF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C2360B9F59377992AB021A214CA5D4D5 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E5D0F2572B7A42DF993B9018B5FE5B /* Backup.swift */; };
+		C8D0AEC82EE8B77A8F9D3E0A3C82BFB3 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3CCA46E88AC5E2AD418B24667819256 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB707E4BE7A09B69260ED98C0D54829 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F8C14FB25FBE8CD2943B275762E0D /* ChatMessage.swift */; };
+		D49C3A65304E762BBD1FC4836E4D3CF0 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26994E0FDB1D6292FE483FF645D596 /* SQLite.swift-dummy.m */; };
+		D761F0238FC2AE28A0FD84D31CC413FA /* ImageGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19600463AEF67D563C1014EF51797A /* ImageGeneration.swift */; };
+		DA0511CFD9E7816F2229107511FC4676 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FCDC12F7D8F88F053A9FDA959678D /* RTree.swift */; };
+		DBB84C83CB83B6F1858BBB7E5697EC44 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200C48BB9F14A305C55BD013936813B /* Blob.swift */; };
+		E0ED7E4AEA5E78B480E32932F615A889 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76204F13E3474414E83B215E287FE5A8 /* Schema.swift */; };
+		F07F4B19339000839CE97B1A8B3D9366 /* OpenAISwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3BA4EDDA1943F71D5083237BE045F /* OpenAISwift-dummy.m */; };
+		F741BDF26E2E65666D3EAA1F0C82DE32 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB7EB416A92F4587C053F0763B5331 /* Result.swift */; };
+		FE84B731FB2B107988E7FAC2362F2C56 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD113C5C9D610166663D432775E58C8 /* Coding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		134F2F10806B3AD7DD75C2E7C565AC5F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
-			remoteInfo = SQLite.swift;
-		};
-		ADE095568FD6681373F67394B5BEE462 /* PBXContainerItemProxy */ = {
+		3773E0D910F3058C49A052BE8E3C880F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B928DEF19561A2877B9C66303F5B1720;
 			remoteInfo = OpenAISwift;
 		};
+		60BEA7EFE0372AA1E96C9B15FA324483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00FFC6A031FEFA7F075A6D4314864258 /* Pods-SmartList-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartList-acknowledgements.markdown"; sourceTree = "<group>"; };
-		02CCF2F5A580588A03F5CE1388987EF6 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
-		05D341EF244D816692ED97A6493F9A8D /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
-		08B533393799AD9DF2A6968D5630C693 /* Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Command.swift; path = Sources/OpenAISwift/Models/Command.swift; sourceTree = "<group>"; };
-		0C07898CAAF2C7B57DBC01A124138C77 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
-		107D3ABE59AE1CA2E9C8E542DBFEC725 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
-		1558A30ABD41A74D2F9ED7DBD4E5E6AD /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
-		179F157AD0A9400C853B01AF695C9C0F /* SchemaReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaReader.swift; path = Sources/SQLite/Schema/SchemaReader.swift; sourceTree = "<group>"; };
-		1AFD01CFC4E0D52047240BFA3966BA9C /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		0BCF516CAFDE664CDBA8A328DE30F664 /* SchemaChanger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaChanger.swift; path = Sources/SQLite/Schema/SchemaChanger.swift; sourceTree = "<group>"; };
+		0EA171BFD07D265523E22A9E3AA89849 /* SQLiteFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteFeature.swift; path = Sources/SQLite/Core/SQLiteFeature.swift; sourceTree = "<group>"; };
+		11AC9CF4E0031B17961463018BE27F1F /* OpenAISwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenAISwift-Info.plist"; sourceTree = "<group>"; };
+		1AF83FD96C325F703C1572E6A00A7F54 /* ServerSentEventsHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerSentEventsHandler.swift; path = Sources/OpenAISwift/ServerSentEventsHandler.swift; sourceTree = "<group>"; };
+		1DBDDF1558C7B65F83866043DB9E78A0 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
 		1E1E12AF635FEF68695EABF7C12C5534 /* Pods-SmartList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartList.release.xcconfig"; sourceTree = "<group>"; };
-		24D60A236453C25A6CADA13109EEDA4C /* Instruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instruction.swift; path = Sources/OpenAISwift/Models/Instruction.swift; sourceTree = "<group>"; };
-		2AF60D5A3EEB15C67243B4E552E431A0 /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
-		2B8B6CD6F73280BA7F308D3C014805F2 /* OpenAISwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenAISwift.debug.xcconfig; sourceTree = "<group>"; };
+		25088DA375D1212801628F640A339C4A /* Connection+Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Schema.swift"; path = "Sources/SQLite/Schema/Connection+Schema.swift"; sourceTree = "<group>"; };
 		2D69F5D5FA6D4DFC7B7E62600BDF774B /* Pods-SmartList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartList.modulemap"; sourceTree = "<group>"; };
+		2DD113C5C9D610166663D432775E58C8 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		33A67AAE8BFFCF43228C74CE718F68A3 /* SchemaDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaDefinitions.swift; path = Sources/SQLite/Schema/SchemaDefinitions.swift; sourceTree = "<group>"; };
 		34371277DC64E70DEF52B1005FAA93FF /* Pods-SmartList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartList-umbrella.h"; sourceTree = "<group>"; };
-		3FC2B911206858BE4CDF1C00E4B0C9BC /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
-		471DC454B1486CAA7C9D6BF21781D4B4 /* OpenAISwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenAISwift-umbrella.h"; sourceTree = "<group>"; };
-		4AB797E6E153233D688AA5ADF6089DC1 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		378BD67960A4D951602B88513399528D /* URIQueryParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URIQueryParameter.swift; path = Sources/SQLite/Core/URIQueryParameter.swift; sourceTree = "<group>"; };
+		39DFDC8685105DC16F6D98A585D46E1F /* OpenAISwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenAISwift.modulemap; sourceTree = "<group>"; };
+		3D19600463AEF67D563C1014EF51797A /* ImageGeneration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGeneration.swift; path = Sources/OpenAISwift/Models/ImageGeneration.swift; sourceTree = "<group>"; };
+		3DB40AAB73BE149EA928B6FEF66A306C /* OpenAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAI.swift; path = Sources/OpenAISwift/Models/OpenAI.swift; sourceTree = "<group>"; };
+		434363CF3BAF390A5CD0E589BFFCF4D7 /* Connection+Attach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Attach.swift"; path = "Sources/SQLite/Core/Connection+Attach.swift"; sourceTree = "<group>"; };
+		4638A69A847439896B099893E8FBEEDC /* OpenAISwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenAISwift-prefix.pch"; sourceTree = "<group>"; };
 		4AB9B89B0C0E3F0CAEB813D48F563DB3 /* Pods-SmartList */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SmartList"; path = Pods_SmartList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AC658B610FE87BD8F6BF0F3D230479E /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		4C26994E0FDB1D6292FE483FF645D596 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		4C74D3469D7BF48623A9D8A5810D4C5C /* Moderation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moderation.swift; path = Sources/OpenAISwift/Models/Moderation.swift; sourceTree = "<group>"; };
 		4CB56B7FE727819A2ADD007431264877 /* Pods-SmartList-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartList-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D6A138346896E5A221307D604940E1F /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
-		5198A4536C76CCA9AFF43177FA6C0189 /* ImageGeneration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGeneration.swift; path = Sources/OpenAISwift/Models/ImageGeneration.swift; sourceTree = "<group>"; };
-		51C95EEC041A6BE50DCCAA021F5B7766 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
-		5A814C92479172E0E4331D6C331ABCC8 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
-		5CF9736D4EC467D1EBFA9FB159098BD8 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
-		5FB43242E51792AD16AB46349D07F7DC /* URIQueryParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URIQueryParameter.swift; path = Sources/SQLite/Core/URIQueryParameter.swift; sourceTree = "<group>"; };
-		64175403ECAD432E4BCB950D83DCB9B4 /* Connection+Attach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Attach.swift"; path = "Sources/SQLite/Core/Connection+Attach.swift"; sourceTree = "<group>"; };
-		67EAB188380F99459B7E88C79AFB2876 /* OpenAISwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenAISwift-Info.plist"; sourceTree = "<group>"; };
+		5228FCA42F2A0D2D670CB9C8F01C559F /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		5270F4F3E47B92D3536B0679D7480221 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		5357E45BAA938F931B2AD889B3F416EC /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		55D57E49FF3F60C13D9C28BFC6FA9892 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		58A3BA4EDDA1943F71D5083237BE045F /* OpenAISwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenAISwift-dummy.m"; sourceTree = "<group>"; };
+		5BAA08A1760C17AF9DDCBC336D6F17CA /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		5C6B3D7B852F990B67E03A9F18188DA0 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
 		6AB5B4C09CE68B0E6A17AF13D1E56378 /* OpenAISwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenAISwift; path = OpenAISwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B32EA3047BE6198B4F03D58758EB9A8 /* Instruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instruction.swift; path = Sources/OpenAISwift/Models/Instruction.swift; sourceTree = "<group>"; };
+		6E7976CC54B0EF851D37DF55F49253B0 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		6F2C69D018CC7CD56B3E38C54021DE62 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		706CC5C106021F68D1A10188E483D8E2 /* Query+with.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Query+with.swift"; path = "Sources/SQLite/Typed/Query+with.swift"; sourceTree = "<group>"; };
+		7135428FD8EC8B3D6CDECA99BF0483B1 /* EmbeddingsInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmbeddingsInput.swift; path = Sources/OpenAISwift/Models/EmbeddingsInput.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73077C84BDE8EFB8BDF813883E94B2DF /* SQLiteVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteVersion.swift; path = Sources/SQLite/Core/SQLiteVersion.swift; sourceTree = "<group>"; };
-		7C647A8DD5F557CFDBBD58441A84F001 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
-		7ECC2A1B2193B54A1381B43E4E5FD967 /* SQLiteFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteFeature.swift; path = Sources/SQLite/Core/SQLiteFeature.swift; sourceTree = "<group>"; };
+		76204F13E3474414E83B215E287FE5A8 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		7877DED0275CBA5433A0BD5C408DDC3A /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		7A8AB5E0DA30F4191A9662260B931FCB /* OpenAISwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenAISwift.debug.xcconfig; sourceTree = "<group>"; };
 		806928EFA8B086C1D0843365ED4D61E0 /* Pods-SmartList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartList.debug.xcconfig"; sourceTree = "<group>"; };
-		8624B3DF669DD986B56FA22A5E7255BA /* OpenAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAI.swift; path = Sources/OpenAISwift/Models/OpenAI.swift; sourceTree = "<group>"; };
-		8738B40FC8C74C3A6BCD081C4962E247 /* OpenAIEndpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIEndpoint.swift; path = Sources/OpenAISwift/OpenAIEndpoint.swift; sourceTree = "<group>"; };
-		896E759F7BB846EC066E8A21E1B5FC99 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
-		89E8C4A5A1DA7A18F9AD69C0F525FB59 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
-		8D216DEB16D3CA4AF3B84196E7D38BF5 /* OpenAISwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAISwift.swift; path = Sources/OpenAISwift/OpenAISwift.swift; sourceTree = "<group>"; };
-		917E6C27A8C7EA4E19463B948FB5DCD7 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
-		925B9644F68E8591A90FB2E491A8366A /* OpenAISwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenAISwift.release.xcconfig; sourceTree = "<group>"; };
+		859D04F776FD31E785B65B53DB5A71FC /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		878462879A41A9196652B1833A213703 /* OpenAISwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenAISwift-umbrella.h"; sourceTree = "<group>"; };
+		88069BF17F50A3A5A5765723C4994F8F /* OpenAISwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenAISwift.release.xcconfig; sourceTree = "<group>"; };
+		8B9F8C14FB25FBE8CD2943B275762E0D /* ChatMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessage.swift; path = Sources/OpenAISwift/Models/ChatMessage.swift; sourceTree = "<group>"; };
+		8E08D36715BED2266A270CE4466117F8 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		9200C48BB9F14A305C55BD013936813B /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5AD2EFAC12AA06FE9963A84D8297A47 /* EmbeddingsInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmbeddingsInput.swift; path = Sources/OpenAISwift/Models/EmbeddingsInput.swift; sourceTree = "<group>"; };
-		A9026E4A9BB5124114567D7CE2AD8C8C /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
-		AB3B1D1EA259B843003B21DFA43432CF /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
-		AB471BA57AF93C50887EF7B763E83859 /* Backup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Backup.swift; path = Sources/SQLite/Core/Backup.swift; sourceTree = "<group>"; };
-		ADD7EA875A35EF33AF835FF6601CA126 /* Query+with.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Query+with.swift"; path = "Sources/SQLite/Typed/Query+with.swift"; sourceTree = "<group>"; };
-		AE7D73A55AA6D17C9E82C396308C0759 /* OpenAISwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenAISwift.modulemap; sourceTree = "<group>"; };
-		AFB4D41142A1CFDAB883ED79B813D895 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
-		B1B87CEA20E0450844CCB2B7F9859FD1 /* OpenAISwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenAISwift-dummy.m"; sourceTree = "<group>"; };
-		B940D4343B072025CC03A363818D099D /* ChatMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessage.swift; path = Sources/OpenAISwift/Models/ChatMessage.swift; sourceTree = "<group>"; };
-		BBAAEEAA517759BA4E03387125D304AE /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
+		9E39DCF6B3B5F77CD519BF846BBF207F /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		A71EA432AD8246994BF7EF55343D75D1 /* SchemaReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaReader.swift; path = Sources/SQLite/Schema/SchemaReader.swift; sourceTree = "<group>"; };
+		AACB04240B3EEB5188EF318E1326DA88 /* SQLiteVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteVersion.swift; path = Sources/SQLite/Core/SQLiteVersion.swift; sourceTree = "<group>"; };
+		AAFF518863BDB88FA656063F3416BFF3 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		AC69B41DC14B1E67B13B61B830F76747 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		AF2FCD1CFC81E687948ACB185DD50ABA /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
+		B1E5D0F2572B7A42DF993B9018B5FE5B /* Backup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Backup.swift; path = Sources/SQLite/Core/Backup.swift; sourceTree = "<group>"; };
+		B372601371B7EB62D9FD405F99972403 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		B4905E2E2761C69D0E2FF498E33A1B86 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		B5DD62F06B4F1E4426C85FDCEE92C5FC /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		BA1497D26EA0EC1DC1B34A5834A1C6F4 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
 		BBCAD80BDC39AF2AEDD31313176F29B1 /* Pods-SmartList-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartList-Info.plist"; sourceTree = "<group>"; };
-		BBE31BCFAAD673978C792833DA2BEC05 /* OpenAIModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIModelType.swift; path = Sources/OpenAISwift/Models/OpenAIModelType.swift; sourceTree = "<group>"; };
-		C3DCD31AA34AAF35EB9EC485CEAB8B0A /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
-		C58F62E3B9E8B1FFFA37943772BF348D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/SQLite/Core/Result.swift; sourceTree = "<group>"; };
-		CDBA79538A985AF3323A2D8276A3BBEF /* SchemaChanger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaChanger.swift; path = Sources/SQLite/Schema/SchemaChanger.swift; sourceTree = "<group>"; };
-		D26AC361E68F29FBF61FE0040D4A1A14 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
-		D658D289E4F813D5845D82FB4B4BE8A7 /* Connection+Aggregation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Aggregation.swift"; path = "Sources/SQLite/Core/Connection+Aggregation.swift"; sourceTree = "<group>"; };
-		E087771058C8C1EF24883753B1FAA811 /* Connection+Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Schema.swift"; path = "Sources/SQLite/Schema/Connection+Schema.swift"; sourceTree = "<group>"; };
-		E0C0CA4BEC9DE43E510D6B4D33AC24EE /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
-		E5AE4F21CD260E6A6398550B68169001 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
-		EA2E197C43B11AD4A15A821764D0783C /* Connection+Pragmas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Pragmas.swift"; path = "Sources/SQLite/Core/Connection+Pragmas.swift"; sourceTree = "<group>"; };
-		EA68074C3E214FAD02E5AC3232C3CFC9 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
-		F1ED1E4549289E34E69C08029CB1D7E5 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		C19FFFAE35D5137A408CF28AA30E13EB /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
+		DE6C289EA791F7469BC828EAC3903AF9 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		E07560C93449D31E1DDDE311BF361173 /* OpenAIModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIModelType.swift; path = Sources/OpenAISwift/Models/OpenAIModelType.swift; sourceTree = "<group>"; };
+		E47FCDC12F7D8F88F053A9FDA959678D /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		E73C64350B73F48E4E8789CCA5990278 /* OpenAIEndpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIEndpoint.swift; path = Sources/OpenAISwift/OpenAIEndpoint.swift; sourceTree = "<group>"; };
+		E8CB7EB416A92F4587C053F0763B5331 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/SQLite/Core/Result.swift; sourceTree = "<group>"; };
+		EB181BBFE448C6681A280C298E55E7AF /* Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Command.swift; path = Sources/OpenAISwift/Models/Command.swift; sourceTree = "<group>"; };
+		EC31224372EC09E07121605A4263080A /* Connection+Pragmas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Pragmas.swift"; path = "Sources/SQLite/Core/Connection+Pragmas.swift"; sourceTree = "<group>"; };
+		F2556338C40782B1CDFE74BC03866E88 /* Connection+Aggregation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Aggregation.swift"; path = "Sources/SQLite/Core/Connection+Aggregation.swift"; sourceTree = "<group>"; };
+		F3CCA46E88AC5E2AD418B24667819256 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
 		F3F4697073B61A282289772E5B5CEF78 /* Pods-SmartList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartList-dummy.m"; sourceTree = "<group>"; };
 		F58D59898145CC048920D213EA6646D6 /* Pods-SmartList-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartList-frameworks.sh"; sourceTree = "<group>"; };
 		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.swift; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F710F7759C5BAC8A1BCAE42758EB2075 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
-		FA39F07282A4EF9B7A9D16B0F03AAA5E /* SchemaDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaDefinitions.swift; path = Sources/SQLite/Schema/SchemaDefinitions.swift; sourceTree = "<group>"; };
-		FBCC7D1EF9D2428975CC253BEB879D30 /* OpenAISwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenAISwift-prefix.pch"; sourceTree = "<group>"; };
+		F667CA6C64DD5D35FEDFC4A0BF3F8D19 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		F8B407437420B019B2FCD30E36118DEF /* OpenAISwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAISwift.swift; path = Sources/OpenAISwift/OpenAISwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1655824F0FEBEA6E810F38A6183BD3FB /* Frameworks */ = {
+		BB9D84BDE522785503B25EE8522FE680 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1CAE82299F5FAF09B3986A52FFF092F /* Foundation.framework in Frameworks */,
+				BB94A3976A864E42FBB631127599CF86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,11 +186,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35F3F686ECAEC0555E116DE8B4E857B9 /* SQLite.swift */ = {
+		23284A12A494AFF67ADC873DADA75908 /* OpenAISwift */ = {
 			isa = PBXGroup;
 			children = (
-				3F9EE2308E2453BF1496AC02E7CD39D8 /* standard */,
-				BFB36B4FA3B05191569C82D5E85D87E3 /* Support Files */,
+				8B9F8C14FB25FBE8CD2943B275762E0D /* ChatMessage.swift */,
+				EB181BBFE448C6681A280C298E55E7AF /* Command.swift */,
+				7135428FD8EC8B3D6CDECA99BF0483B1 /* EmbeddingsInput.swift */,
+				3D19600463AEF67D563C1014EF51797A /* ImageGeneration.swift */,
+				6B32EA3047BE6198B4F03D58758EB9A8 /* Instruction.swift */,
+				4C74D3469D7BF48623A9D8A5810D4C5C /* Moderation.swift */,
+				3DB40AAB73BE149EA928B6FEF66A306C /* OpenAI.swift */,
+				E73C64350B73F48E4E8789CCA5990278 /* OpenAIEndpoint.swift */,
+				E07560C93449D31E1DDDE311BF361173 /* OpenAIModelType.swift */,
+				F8B407437420B019B2FCD30E36118DEF /* OpenAISwift.swift */,
+				1AF83FD96C325F703C1572E6A00A7F54 /* ServerSentEventsHandler.swift */,
+				44B348A0877CFC944CFA3E4E8FD60C64 /* Support Files */,
+			);
+			name = OpenAISwift;
+			path = OpenAISwift;
+			sourceTree = "<group>";
+		};
+		3592E8A6465EC0A238EDC41EDF08ADF9 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				F2BFCA332D4574172A8A7B688F1981E3 /* standard */,
+				E9894A019EB9D9757FA4A0ACAECABBB6 /* Support Files */,
 			);
 			name = SQLite.swift;
 			path = SQLite.swift;
@@ -202,46 +226,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F9EE2308E2453BF1496AC02E7CD39D8 /* standard */ = {
+		44B348A0877CFC944CFA3E4E8FD60C64 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C07898CAAF2C7B57DBC01A124138C77 /* AggregateFunctions.swift */,
-				AB471BA57AF93C50887EF7B763E83859 /* Backup.swift */,
-				1558A30ABD41A74D2F9ED7DBD4E5E6AD /* Blob.swift */,
-				3FC2B911206858BE4CDF1C00E4B0C9BC /* Coding.swift */,
-				02CCF2F5A580588A03F5CE1388987EF6 /* Collation.swift */,
-				7C647A8DD5F557CFDBBD58441A84F001 /* Connection.swift */,
-				D658D289E4F813D5845D82FB4B4BE8A7 /* Connection+Aggregation.swift */,
-				64175403ECAD432E4BCB950D83DCB9B4 /* Connection+Attach.swift */,
-				EA2E197C43B11AD4A15A821764D0783C /* Connection+Pragmas.swift */,
-				E087771058C8C1EF24883753B1FAA811 /* Connection+Schema.swift */,
-				1AFD01CFC4E0D52047240BFA3966BA9C /* CoreFunctions.swift */,
-				F710F7759C5BAC8A1BCAE42758EB2075 /* CustomFunctions.swift */,
-				4AC658B610FE87BD8F6BF0F3D230479E /* DateAndTimeFunctions.swift */,
-				EA68074C3E214FAD02E5AC3232C3CFC9 /* Errors.swift */,
-				51C95EEC041A6BE50DCCAA021F5B7766 /* Expression.swift */,
-				C3DCD31AA34AAF35EB9EC485CEAB8B0A /* Foundation.swift */,
-				896E759F7BB846EC066E8A21E1B5FC99 /* FTS4.swift */,
-				4D6A138346896E5A221307D604940E1F /* FTS5.swift */,
-				D26AC361E68F29FBF61FE0040D4A1A14 /* Helpers.swift */,
-				107D3ABE59AE1CA2E9C8E542DBFEC725 /* Operators.swift */,
-				E0C0CA4BEC9DE43E510D6B4D33AC24EE /* Query.swift */,
-				ADD7EA875A35EF33AF835FF6601CA126 /* Query+with.swift */,
-				C58F62E3B9E8B1FFFA37943772BF348D /* Result.swift */,
-				F1ED1E4549289E34E69C08029CB1D7E5 /* RTree.swift */,
-				917E6C27A8C7EA4E19463B948FB5DCD7 /* Schema.swift */,
-				CDBA79538A985AF3323A2D8276A3BBEF /* SchemaChanger.swift */,
-				FA39F07282A4EF9B7A9D16B0F03AAA5E /* SchemaDefinitions.swift */,
-				179F157AD0A9400C853B01AF695C9C0F /* SchemaReader.swift */,
-				5A814C92479172E0E4331D6C331ABCC8 /* Setter.swift */,
-				A9026E4A9BB5124114567D7CE2AD8C8C /* SQLite.h */,
-				7ECC2A1B2193B54A1381B43E4E5FD967 /* SQLiteFeature.swift */,
-				73077C84BDE8EFB8BDF813883E94B2DF /* SQLiteVersion.swift */,
-				5CF9736D4EC467D1EBFA9FB159098BD8 /* Statement.swift */,
-				5FB43242E51792AD16AB46349D07F7DC /* URIQueryParameter.swift */,
-				E5AE4F21CD260E6A6398550B68169001 /* Value.swift */,
+				39DFDC8685105DC16F6D98A585D46E1F /* OpenAISwift.modulemap */,
+				58A3BA4EDDA1943F71D5083237BE045F /* OpenAISwift-dummy.m */,
+				11AC9CF4E0031B17961463018BE27F1F /* OpenAISwift-Info.plist */,
+				4638A69A847439896B099893E8FBEEDC /* OpenAISwift-prefix.pch */,
+				878462879A41A9196652B1833A213703 /* OpenAISwift-umbrella.h */,
+				7A8AB5E0DA30F4191A9662260B931FCB /* OpenAISwift.debug.xcconfig */,
+				88069BF17F50A3A5A5765723C4994F8F /* OpenAISwift.release.xcconfig */,
 			);
-			name = standard;
+			name = "Support Files";
+			path = "../Target Support Files/OpenAISwift";
 			sourceTree = "<group>";
 		};
 		4D0321756C56C66C899501B754A31399 /* Pods-SmartList */ = {
@@ -261,15 +258,6 @@
 			path = "Target Support Files/Pods-SmartList";
 			sourceTree = "<group>";
 		};
-		54643ADCDB067B53FC05EF8F439097FF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F817F0E36E1F81A2413C454DC6FC263F /* OpenAISwift */,
-				35F3F686ECAEC0555E116DE8B4E857B9 /* SQLite.swift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,19 +266,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BFB36B4FA3B05191569C82D5E85D87E3 /* Support Files */ = {
+		CA813E55F8B8D8FFB161A7F1EC7DDBDE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				89E8C4A5A1DA7A18F9AD69C0F525FB59 /* SQLite.swift.modulemap */,
-				AB3B1D1EA259B843003B21DFA43432CF /* SQLite.swift-dummy.m */,
-				05D341EF244D816692ED97A6493F9A8D /* SQLite.swift-Info.plist */,
-				AFB4D41142A1CFDAB883ED79B813D895 /* SQLite.swift-prefix.pch */,
-				4AB797E6E153233D688AA5ADF6089DC1 /* SQLite.swift-umbrella.h */,
-				BBAAEEAA517759BA4E03387125D304AE /* SQLite.swift.debug.xcconfig */,
-				2AF60D5A3EEB15C67243B4E552E431A0 /* SQLite.swift.release.xcconfig */,
+				23284A12A494AFF67ADC873DADA75908 /* OpenAISwift */,
+				3592E8A6465EC0A238EDC41EDF08ADF9 /* SQLite.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SQLite.swift";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -298,7 +280,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				54643ADCDB067B53FC05EF8F439097FF /* Pods */,
+				CA813E55F8B8D8FFB161A7F1EC7DDBDE /* Pods */,
 				37A02657FE039266EB66A4A62142DDB0 /* Products */,
 				E045E58A745260DD79BCE4CD1715ECF4 /* Targets Support Files */,
 			);
@@ -312,21 +294,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE111599CD182797D853AFEF2F00344C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE7D73A55AA6D17C9E82C396308C0759 /* OpenAISwift.modulemap */,
-				B1B87CEA20E0450844CCB2B7F9859FD1 /* OpenAISwift-dummy.m */,
-				67EAB188380F99459B7E88C79AFB2876 /* OpenAISwift-Info.plist */,
-				FBCC7D1EF9D2428975CC253BEB879D30 /* OpenAISwift-prefix.pch */,
-				471DC454B1486CAA7C9D6BF21781D4B4 /* OpenAISwift-umbrella.h */,
-				2B8B6CD6F73280BA7F308D3C014805F2 /* OpenAISwift.debug.xcconfig */,
-				925B9644F68E8591A90FB2E491A8366A /* OpenAISwift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OpenAISwift";
-			sourceTree = "<group>";
-		};
 		E045E58A745260DD79BCE4CD1715ECF4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,32 +302,71 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F817F0E36E1F81A2413C454DC6FC263F /* OpenAISwift */ = {
+		E9894A019EB9D9757FA4A0ACAECABBB6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B940D4343B072025CC03A363818D099D /* ChatMessage.swift */,
-				08B533393799AD9DF2A6968D5630C693 /* Command.swift */,
-				A5AD2EFAC12AA06FE9963A84D8297A47 /* EmbeddingsInput.swift */,
-				5198A4536C76CCA9AFF43177FA6C0189 /* ImageGeneration.swift */,
-				24D60A236453C25A6CADA13109EEDA4C /* Instruction.swift */,
-				8624B3DF669DD986B56FA22A5E7255BA /* OpenAI.swift */,
-				8738B40FC8C74C3A6BCD081C4962E247 /* OpenAIEndpoint.swift */,
-				BBE31BCFAAD673978C792833DA2BEC05 /* OpenAIModelType.swift */,
-				8D216DEB16D3CA4AF3B84196E7D38BF5 /* OpenAISwift.swift */,
-				DE111599CD182797D853AFEF2F00344C /* Support Files */,
+				5BAA08A1760C17AF9DDCBC336D6F17CA /* SQLite.swift.modulemap */,
+				4C26994E0FDB1D6292FE483FF645D596 /* SQLite.swift-dummy.m */,
+				B372601371B7EB62D9FD405F99972403 /* SQLite.swift-Info.plist */,
+				B4905E2E2761C69D0E2FF498E33A1B86 /* SQLite.swift-prefix.pch */,
+				F3CCA46E88AC5E2AD418B24667819256 /* SQLite.swift-umbrella.h */,
+				C19FFFAE35D5137A408CF28AA30E13EB /* SQLite.swift.debug.xcconfig */,
+				AF2FCD1CFC81E687948ACB185DD50ABA /* SQLite.swift.release.xcconfig */,
 			);
-			name = OpenAISwift;
-			path = OpenAISwift;
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		F2BFCA332D4574172A8A7B688F1981E3 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				BA1497D26EA0EC1DC1B34A5834A1C6F4 /* AggregateFunctions.swift */,
+				B1E5D0F2572B7A42DF993B9018B5FE5B /* Backup.swift */,
+				9200C48BB9F14A305C55BD013936813B /* Blob.swift */,
+				2DD113C5C9D610166663D432775E58C8 /* Coding.swift */,
+				5C6B3D7B852F990B67E03A9F18188DA0 /* Collation.swift */,
+				B5DD62F06B4F1E4426C85FDCEE92C5FC /* Connection.swift */,
+				F2556338C40782B1CDFE74BC03866E88 /* Connection+Aggregation.swift */,
+				434363CF3BAF390A5CD0E589BFFCF4D7 /* Connection+Attach.swift */,
+				EC31224372EC09E07121605A4263080A /* Connection+Pragmas.swift */,
+				25088DA375D1212801628F640A339C4A /* Connection+Schema.swift */,
+				5270F4F3E47B92D3536B0679D7480221 /* CoreFunctions.swift */,
+				6E7976CC54B0EF851D37DF55F49253B0 /* CustomFunctions.swift */,
+				9E39DCF6B3B5F77CD519BF846BBF207F /* DateAndTimeFunctions.swift */,
+				5228FCA42F2A0D2D670CB9C8F01C559F /* Errors.swift */,
+				5357E45BAA938F931B2AD889B3F416EC /* Expression.swift */,
+				8E08D36715BED2266A270CE4466117F8 /* Foundation.swift */,
+				6F2C69D018CC7CD56B3E38C54021DE62 /* FTS4.swift */,
+				859D04F776FD31E785B65B53DB5A71FC /* FTS5.swift */,
+				F667CA6C64DD5D35FEDFC4A0BF3F8D19 /* Helpers.swift */,
+				1DBDDF1558C7B65F83866043DB9E78A0 /* Operators.swift */,
+				AAFF518863BDB88FA656063F3416BFF3 /* Query.swift */,
+				706CC5C106021F68D1A10188E483D8E2 /* Query+with.swift */,
+				E8CB7EB416A92F4587C053F0763B5331 /* Result.swift */,
+				E47FCDC12F7D8F88F053A9FDA959678D /* RTree.swift */,
+				76204F13E3474414E83B215E287FE5A8 /* Schema.swift */,
+				0BCF516CAFDE664CDBA8A328DE30F664 /* SchemaChanger.swift */,
+				33A67AAE8BFFCF43228C74CE718F68A3 /* SchemaDefinitions.swift */,
+				A71EA432AD8246994BF7EF55343D75D1 /* SchemaReader.swift */,
+				55D57E49FF3F60C13D9C28BFC6FA9892 /* Setter.swift */,
+				7877DED0275CBA5433A0BD5C408DDC3A /* SQLite.h */,
+				0EA171BFD07D265523E22A9E3AA89849 /* SQLiteFeature.swift */,
+				AACB04240B3EEB5188EF318E1326DA88 /* SQLiteVersion.swift */,
+				DE6C289EA791F7469BC828EAC3903AF9 /* Statement.swift */,
+				378BD67960A4D951602B88513399528D /* URIQueryParameter.swift */,
+				AC69B41DC14B1E67B13B61B830F76747 /* Value.swift */,
+			);
+			name = standard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		819F862408117ABEA7FCBD0122DBCCBE /* Headers */ = {
+		1214A4C3DAFA63D608437BE2E8C60255 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBCDA33B3D6640C11A92E5FCBBD3D997 /* OpenAISwift-umbrella.h in Headers */,
+				8D8A0FCBFC5647EB3FBBF5873EE43AC1 /* OpenAISwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +402,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				E0F81577564B3639DA3AFAF8B12376C5 /* PBXTargetDependency */,
-				39C066BFDAB58DBBEE8C089FEC8F9A89 /* PBXTargetDependency */,
+				9B58A159BE5969F13C04E9708C382E6E /* PBXTargetDependency */,
+				F7AC4C28D3D809F441B5687FED96B0D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-SmartList";
 			productName = Pods_SmartList;
@@ -424,12 +430,12 @@
 		};
 		B928DEF19561A2877B9C66303F5B1720 /* OpenAISwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 942178B9054402A56F32C33F37595020 /* Build configuration list for PBXNativeTarget "OpenAISwift" */;
+			buildConfigurationList = 75662201FDC69436D943EA5F13E40ED5 /* Build configuration list for PBXNativeTarget "OpenAISwift" */;
 			buildPhases = (
-				819F862408117ABEA7FCBD0122DBCCBE /* Headers */,
-				4E805AF1EA33BD14D1EF38CFD51FDF42 /* Sources */,
-				1655824F0FEBEA6E810F38A6183BD3FB /* Frameworks */,
-				7035387FCEFA7B925840293887FA277C /* Resources */,
+				1214A4C3DAFA63D608437BE2E8C60255 /* Headers */,
+				222FBBD342D764F946939FDFD88022C1 /* Sources */,
+				BB9D84BDE522785503B25EE8522FE680 /* Frameworks */,
+				A84BFE1673E3AB9BD29F478C54FB6605 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -470,14 +476,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7035387FCEFA7B925840293887FA277C /* Resources */ = {
+		9C79530EC17F9541105397949A2513B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C79530EC17F9541105397949A2513B6 /* Resources */ = {
+		A84BFE1673E3AB9BD29F478C54FB6605 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,20 +500,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E805AF1EA33BD14D1EF38CFD51FDF42 /* Sources */ = {
+		222FBBD342D764F946939FDFD88022C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33FEF31B1B0F6F537CA5B37D3FCE0BC7 /* ChatMessage.swift in Sources */,
-				96F6A0FAE84595D59B4A2BDA3E40DC29 /* Command.swift in Sources */,
-				EAD0F1705FD7891BC7A9A0079705E686 /* EmbeddingsInput.swift in Sources */,
-				907BE8EAE94789AB699947FE9728A0A5 /* ImageGeneration.swift in Sources */,
-				5877C8EAC634C5803501477AC6F93170 /* Instruction.swift in Sources */,
-				463179E58E38DB9810D4B3BA465B5715 /* OpenAI.swift in Sources */,
-				C0C123E9E8A5916C4354E17B07884E58 /* OpenAIEndpoint.swift in Sources */,
-				46D64161E7D7269ED96E9006E4245DB3 /* OpenAIModelType.swift in Sources */,
-				FDDE2A3ED7D443816DB70625CC18F6D5 /* OpenAISwift.swift in Sources */,
-				5201052BB4AAF9DB0C655CF3FA27C3C1 /* OpenAISwift-dummy.m in Sources */,
+				CBB707E4BE7A09B69260ED98C0D54829 /* ChatMessage.swift in Sources */,
+				430254C501F311194D40CC614BC0C9FC /* Command.swift in Sources */,
+				97DF43DB60855EDCDE4C2D0CAA96DCD5 /* EmbeddingsInput.swift in Sources */,
+				D761F0238FC2AE28A0FD84D31CC413FA /* ImageGeneration.swift in Sources */,
+				AA2BDCF4BE0AC373B2BA8FFE321A99E1 /* Instruction.swift in Sources */,
+				0705D258DC946DF6197A28D57B9DCF64 /* Moderation.swift in Sources */,
+				9E02984587A71C0F7FD94C0898510953 /* OpenAI.swift in Sources */,
+				13901B1626130AE3472B80B5D1E9AA7C /* OpenAIEndpoint.swift in Sources */,
+				AA2C546731131CCF89320697E70A7C9B /* OpenAIModelType.swift in Sources */,
+				67D506BC75F6BB426B806634AAEB4F27 /* OpenAISwift.swift in Sources */,
+				F07F4B19339000839CE97B1A8B3D9366 /* OpenAISwift-dummy.m in Sources */,
+				AB52012451765708568AE51F46FCC740 /* ServerSentEventsHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,21 +572,57 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39C066BFDAB58DBBEE8C089FEC8F9A89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SQLite.swift;
-			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
-			targetProxy = 134F2F10806B3AD7DD75C2E7C565AC5F /* PBXContainerItemProxy */;
-		};
-		E0F81577564B3639DA3AFAF8B12376C5 /* PBXTargetDependency */ = {
+		9B58A159BE5969F13C04E9708C382E6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OpenAISwift;
 			target = B928DEF19561A2877B9C66303F5B1720 /* OpenAISwift */;
-			targetProxy = ADE095568FD6681373F67394B5BEE462 /* PBXContainerItemProxy */;
+			targetProxy = 3773E0D910F3058C49A052BE8E3C880F /* PBXContainerItemProxy */;
+		};
+		F7AC4C28D3D809F441B5687FED96B0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 60BEA7EFE0372AA1E96C9B15FA324483 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3060FDB9940EDC0101FEF00A2C0AA3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88069BF17F50A3A5A5765723C4994F8F /* OpenAISwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenAISwift/OpenAISwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenAISwift/OpenAISwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenAISwift/OpenAISwift.modulemap";
+				PRODUCT_MODULE_NAME = OpenAISwift;
+				PRODUCT_NAME = OpenAISwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -643,7 +687,7 @@
 		};
 		55DEBE278DAC35D547E4433F171AC608 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AF60D5A3EEB15C67243B4E552E431A0 /* SQLite.swift.release.xcconfig */;
+			baseConfigurationReference = AF2FCD1CFC81E687948ACB185DD50ABA /* SQLite.swift.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -669,77 +713,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5FE169102E769CB7C896D77056F38CDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B8B6CD6F73280BA7F308D3C014805F2 /* OpenAISwift.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenAISwift/OpenAISwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenAISwift/OpenAISwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/OpenAISwift/OpenAISwift.modulemap";
-				PRODUCT_MODULE_NAME = OpenAISwift;
-				PRODUCT_NAME = OpenAISwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		60D3C079C09C622F9B3B9081CCF5FC70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 925B9644F68E8591A90FB2E491A8366A /* OpenAISwift.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenAISwift/OpenAISwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenAISwift/OpenAISwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/OpenAISwift/OpenAISwift.modulemap";
-				PRODUCT_MODULE_NAME = OpenAISwift;
-				PRODUCT_NAME = OpenAISwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -749,7 +722,7 @@
 		};
 		B250405FE92605A999EBC08B50EC6F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBAAEEAA517759BA4E03387125D304AE /* SQLite.swift.debug.xcconfig */;
+			baseConfigurationReference = C19FFFAE35D5137A408CF28AA30E13EB /* SQLite.swift.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -775,6 +748,41 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C49306A8CA206D1CE30C2889A96A3186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8AB5E0DA30F4191A9662260B931FCB /* OpenAISwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenAISwift/OpenAISwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenAISwift/OpenAISwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenAISwift/OpenAISwift.modulemap";
+				PRODUCT_MODULE_NAME = OpenAISwift;
+				PRODUCT_NAME = OpenAISwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -943,11 +951,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		942178B9054402A56F32C33F37595020 /* Build configuration list for PBXNativeTarget "OpenAISwift" */ = {
+		75662201FDC69436D943EA5F13E40ED5 /* Build configuration list for PBXNativeTarget "OpenAISwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5FE169102E769CB7C896D77056F38CDC /* Debug */,
-				60D3C079C09C622F9B3B9081CCF5FC70 /* Release */,
+				C49306A8CA206D1CE30C2889A96A3186 /* Debug */,
+				3060FDB9940EDC0101FEF00A2C0AA3E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

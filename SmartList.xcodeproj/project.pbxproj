@@ -11,6 +11,7 @@
 		89C7B5002B0FE61300C6D7BA /* VoiceInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B4FF2B0FE61300C6D7BA /* VoiceInputViewController.swift */; };
 		89C7B5022B0FE6AB00C6D7BA /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B5012B0FE6AB00C6D7BA /* SpeechRecognizer.swift */; };
 		89C7B5062B11A66600C6D7BA /* OpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B5052B11A66600C6D7BA /* OpenAIManager.swift */; };
+		89C7B5092B14401900C6D7BA /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7B5082B14401900C6D7BA /* TaskModel.swift */; };
 		89F1AA5B2AC94A880022F41B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA5A2AC94A880022F41B /* AppDelegate.swift */; };
 		89F1AA5D2AC94A880022F41B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA5C2AC94A880022F41B /* SceneDelegate.swift */; };
 		89F1AA5F2AC94A880022F41B /* TodoListViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1AA5E2AC94A880022F41B /* TodoListViewControllerViewController.swift */; };
@@ -49,6 +50,7 @@
 		89C7B4FF2B0FE61300C6D7BA /* VoiceInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInputViewController.swift; sourceTree = "<group>"; };
 		89C7B5012B0FE6AB00C6D7BA /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		89C7B5052B11A66600C6D7BA /* OpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIManager.swift; sourceTree = "<group>"; };
+		89C7B5082B14401900C6D7BA /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		89F1AA572AC94A880022F41B /* SmartList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F1AA5A2AC94A880022F41B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89F1AA5C2AC94A880022F41B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		89C7B5072B14400A00C6D7BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89C7B5082B14401900C6D7BA /* TaskModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		89F1AA4E2AC94A880022F41B = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +146,7 @@
 		89F1AA592AC94A880022F41B /* SmartList */ = {
 			isa = PBXGroup;
 			children = (
+				89C7B5072B14400A00C6D7BA /* Models */,
 				89F1AA5A2AC94A880022F41B /* AppDelegate.swift */,
 				89F1AA5C2AC94A880022F41B /* SceneDelegate.swift */,
 				89F1AA5E2AC94A880022F41B /* TodoListViewControllerViewController.swift */,
@@ -349,6 +360,7 @@
 				89C7B5062B11A66600C6D7BA /* OpenAIManager.swift in Sources */,
 				89F1AA5F2AC94A880022F41B /* TodoListViewControllerViewController.swift in Sources */,
 				89FD0E082ACA1A050043275F /* ItemCell.swift in Sources */,
+				89C7B5092B14401900C6D7BA /* TaskModel.swift in Sources */,
 				89C7B4E32ADCD6E300C6D7BA /* DataManager.swift in Sources */,
 				89FD0E062AC94BC80043275F /* AppCoordinator.swift in Sources */,
 				89C7B5022B0FE6AB00C6D7BA /* SpeechRecognizer.swift in Sources */,

@@ -16,6 +16,7 @@ class TodoListViewController: UITableViewController {
     
     enum Operation {
         case updateAll
+        case insert(rows: [IndexPath])
         case update(rows: [IndexPath])
         case delete(rows: [IndexPath])
     }
@@ -24,6 +25,12 @@ class TodoListViewController: UITableViewController {
         var items = DataManager.shared.modelFromDatabase().items
         var data: CurrentValueSubject<Operation, Never> = CurrentValueSubject(.updateAll)
         var focusedIndexPath = PassthroughSubject<IndexPath, Never>()
+        
+        func appendData(item: Item) {
+            items.append(item)
+            data.send(.insert(rows: [IndexPath(row: items.count - 1, section: 0)]))
+//            data.send(.update(rows: [IndexPath(row: items.count - 1, section: 0)]))
+        }
         
         func deleteRowAt(_ index: Int) {
             items.remove(at: index)
@@ -68,6 +75,8 @@ class TodoListViewController: UITableViewController {
                 case .delete(let rows):
                     tableView.deleteRows(at: rows, with: .automatic)
                     tableView.reloadData()
+                case .insert(let rows):
+                    tableView.insertRows(at: rows, with: .automatic)
             }
         })
         
@@ -80,11 +89,27 @@ class TodoListViewController: UITableViewController {
         })
         
         NotificationCenter.default.addObserver(self, selector: #selector(appWillBeTerminated), name: UIApplication.willTerminateNotification, object: nil)
-        Task {
-            let manager = OpenAIManager()
-            let result = await manager.requestWithRequest(request: "what are the ingredients for caesar salad?")
-            print(result)
-        }
+//        Task {
+//            let manager = OpenAIManager()
+//            let result = await manager.requestWithRequest(request: "Hello how are you")
+//            switch result {
+//                case .success(let textResult):
+//                    decode(result: textResult.choices?.first?.message.content)
+//                case .failure(let error):
+//                    print(error)
+//            }
+//        }
+    }
+    
+    func decode(result: String?) {
+        guard let result else { return }
+        let jsonData = result.data(using: .utf8)!
+        let taskItems: TaskItem? = try? JSONDecoder().decode(TaskItem.self, from: jsonData)
+        taskItems?.taskItems.map({ item in
+            return Item(name: item.title)
+        }).forEach({ item in
+            viewModel.appendData(item: item)
+        })
     }
     
     @objc private func appWillBeTerminated() {

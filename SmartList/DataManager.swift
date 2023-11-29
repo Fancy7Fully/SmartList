@@ -44,9 +44,9 @@ class DataManager {
             })
             
             let exists = try db?.scalar(itemsTable.exists) ?? false
-//            if !exists {
+            if !exists {
                 insertFromMockData()
-//            }
+            }
             
             if let items = try db?.prepare(itemsTable) {
                 for item in items {

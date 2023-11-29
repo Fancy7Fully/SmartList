@@ -5,18 +5,26 @@ PODS:
   - SQLite.swift/standard (0.14.1)
 
 DEPENDENCIES:
-  - OpenAISwift
+  - OpenAISwift (from `https://github.com/Fancy7Fully/OpenAISwift`)
   - SQLite.swift (~> 0.14.0)
 
 SPEC REPOS:
   trunk:
-    - OpenAISwift
     - SQLite.swift
+
+EXTERNAL SOURCES:
+  OpenAISwift:
+    :git: https://github.com/Fancy7Fully/OpenAISwift
+
+CHECKOUT OPTIONS:
+  OpenAISwift:
+    :commit: 6fb255f7a3cbdc1272118cbd85dd82dd8eab10e9
+    :git: https://github.com/Fancy7Fully/OpenAISwift
 
 SPEC CHECKSUMS:
   OpenAISwift: 9447a77c8098754f5fa61b9f6e8ab9e2ce592fbd
   SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
 
-PODFILE CHECKSUM: a390f95b42103509a8d4a416cb9783dbf9b7d120
+PODFILE CHECKSUM: a91550fa1e07eeebbec74f3867bfacf31341c32c
 
 COCOAPODS: 1.11.3

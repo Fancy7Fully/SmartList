@@ -70,47 +70,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6CC82613-FBF7-464D-9190-0CD8E90B6D9B"
+            uuid = "C818B566-D918-46C4-99A3-A6F6AEAB3383"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SmartList/DataManager.swift"
+            filePath = "Pods/OpenAISwift/Sources/OpenAISwift/OpenAISwift.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "readFromTable()"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "sendCompletion(with:model:maxTokens:temperature:completionHandler:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6CC82613-FBF7-464D-9190-0CD8E90B6D9B - 6dc924d49739ed41"
+                  uuid = "C818B566-D918-46C4-99A3-A6F6AEAB3383 - 76d8c76ea8523c88"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SmartList.DataManager.readFromTable() -&gt; ()"
-                  moduleName = "SmartList"
+                  symbolName = "OpenAISwift.OpenAISwift.sendCompletion(with: Swift.String, model: OpenAISwift.OpenAIModelType, maxTokens: Swift.Int, temperature: Swift.Double, completionHandler: (Swift.Result&lt;OpenAISwift.OpenAI&lt;OpenAISwift.TextResult&gt;, OpenAISwift.OpenAIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "OpenAISwift"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/DataManager.swift"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/Pods/OpenAISwift/Sources/OpenAISwift/OpenAISwift.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "2720">
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "536">
                </Location>
                <Location
-                  uuid = "6CC82613-FBF7-464D-9190-0CD8E90B6D9B - 6dc924d49739ed41"
+                  uuid = "C818B566-D918-46C4-99A3-A6F6AEAB3383 - e752156d35aff0ac"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SmartList.DataManager.readFromTable() -&gt; ()"
-                  moduleName = "SmartList"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in OpenAISwift.OpenAISwift.sendCompletion(with: Swift.String, model: OpenAISwift.OpenAIModelType, maxTokens: Swift.Int, temperature: Swift.Double, completionHandler: (Swift.Result&lt;OpenAISwift.OpenAI&lt;OpenAISwift.TextResult&gt;, OpenAISwift.OpenAIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "OpenAISwift"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/DataManager.swift"
+                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/Pods/OpenAISwift/Sources/OpenAISwift/OpenAISwift.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "2728">
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "176">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -118,80 +118,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EED5487D-1DAC-4D65-9DD0-6374EB98D509"
+            uuid = "F00EE339-F0C0-4888-8811-E3B0BEBE8128"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SmartList/DataManager.swift"
+            filePath = "Pods/OpenAISwift/Sources/OpenAISwift/OpenAISwift.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "readFromTable()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EED5487D-1DAC-4D65-9DD0-6374EB98D509 - 6dc924d49739ebb7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SmartList.DataManager.readFromTable() -&gt; ()"
-                  moduleName = "SmartList"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/DataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "992">
-               </Location>
-               <Location
-                  uuid = "EED5487D-1DAC-4D65-9DD0-6374EB98D509 - 246095b6b609475e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (SQLite.TableBuilder) -&gt; () in SmartList.DataManager.readFromTable() -&gt; ()"
-                  moduleName = "SmartList"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhiyuanzhou/Projects/SmartList/SmartList/DataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "100">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3FA8F1D8-1311-4C99-9F3A-449732AA6898"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SmartList/DataManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "readFromTable()"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "prepareRequest(_:body:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6693EC91-04CF-4616-9E82-B13862FD5C1D"
+            uuid = "93DDF7C3-F26F-4BF6-BE43-63D44BB87D87"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SmartList/DataManager.swift"
+            filePath = "Pods/OpenAISwift/Sources/OpenAISwift/OpenAISwift.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "readFromTable()"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "prepareRequest(_:body:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
